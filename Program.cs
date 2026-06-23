@@ -8,34 +8,20 @@ namespace proyecto_1
 {
     internal class Program
     {
-        public string Nombre;
-
         static void Main(string[] args)
         {
-            List<Personaje> personajes = new List<Personaje>()
-            {
-                 new Princesa("Princesa"),
-                 new Minero("Minero"),
-                 new Caballero("Caballero")
-            };
+            Guerrerocs g1 = new Guerrerocs("guerrero", 200, 50);
+            Mago m1 = new Mago("mago", 100, 75);
+            Sacerdote s1 = new Sacerdote("sacerdote", 150, 40);
 
 
 
-            Bola_De_Fuego f1 = new Bola_De_Fuego();
-            Bola_De_Hielo b1 = new Bola_De_Hielo();
-
-            foreach (var item in personajes)
-            {
-                if (item is ICongelable congelable)
-                {
-                    b1.congelar(congelable);
-                }
-                if (item is IQuemable quemable)
-                {
-                    f1.quemar(quemable);
-                }
-            }
+            g1.atacar(m1);
+            m1.atacar(g1);
         }
+
+         
     }
 }
+
 
