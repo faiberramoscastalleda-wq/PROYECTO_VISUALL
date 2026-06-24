@@ -1,18 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace proyecto_1
 {
     internal class Personaje
     {
-        public string Nombre;
-
-        public Personaje(string Nombre)
+        protected string nombre;
+        protected bool tieneLaLlave;
+        protected string Llave;
+        public Personaje(string nombre)
         {
-            this.Nombre = Nombre;
+            this.nombre = nombre;
+            this.tieneLaLlave = false;
+           
+
         }
-    }
+        public virtual void abrirCofre(Personaje personaje)
+        {
+            if (tieneLaLlave)
+            {
+                cofre.abrir();            }
+            else
+            {
+                Console.WriteLine("No tienes la llave para abrir el cofre.");
+            }
+        }
+        public void abrir()
+        {
+        }
+}
 }

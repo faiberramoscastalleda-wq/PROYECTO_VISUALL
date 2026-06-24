@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace proyecto_1
 {
-    internal class Bola_De_Fuego
+    internal interface ILlaveLegendaria : ILlaveDorada
     {
-        public void quemar(IQuemable objetivo)
-        {
-            objetivo.quemar();
-        }
+        void abrirLegendaria();
     }
 }

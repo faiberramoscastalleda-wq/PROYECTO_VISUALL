@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace proyecto_1
 {
-    internal class Bola_De_Hielo
+    internal interface ILlaveDorada
     {
-        public void congelar(ICongelable objetivo)
-        {
-            objetivo.congelar();
-        }
+        void abrirDorada();
     }
 }

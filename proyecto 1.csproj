@@ -43,16 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bola de hielo.cs" />
-    <Compile Include="Bola_De_Fuego.cs" />
-    <Compile Include="Caballero.cs" />
-    <Compile Include="ICongelable.cs" />
-    <Compile Include="Minero.cs" />
+    <Compile Include="Aventurero.cs" />
+    <Compile Include="CofreComun.cs" />
+    <Compile Include="cofres.cs" />
+    <Compile Include="Cofre_Dorado.cs" />
+    <Compile Include="Cofre_Legendario.cs" />
+    <Compile Include="IAbrible.cs" />
+    <Compile Include="ILlaveDorada.cs" />
+    <Compile Include="ILlaveLegendaria.cs" />
+    <Compile Include="Ladron.cs" />
+    <Compile Include="Mago.cs" />
     <Compile Include="Personaje.cs" />
-    <Compile Include="Princesa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IQuemable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

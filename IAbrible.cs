@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace proyecto_1
 {
-    internal interface ICongelable
+    internal interface IAbrible
     {
-        void congelar();        
+        void abrir();
     }
+
 }

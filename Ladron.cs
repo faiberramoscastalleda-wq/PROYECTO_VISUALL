@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace proyecto_1
 {
-    internal interface IQuemable
+    internal class Ladron:Personaje,ILlaveLegendaria
     {
-        void quemar();
+        public Ladron(string nombre) : base(nombre)
+        {
+        }
+        public
     }
 }
