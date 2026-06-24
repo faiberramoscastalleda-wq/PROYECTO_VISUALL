@@ -8,9 +8,9 @@ namespace proyecto_1
 {
     internal class Personaje
     {
-        protected string nombre;
-        protected int vida;
-        protected int daño;
+        public string nombre;
+        public int vida;
+        public int daño;
 
        public Personaje(string nombre, int vida, int daño)
         {

@@ -19,5 +19,13 @@ namespace proyecto_1
         {
            return "rayo de luz";
         }
+        public void curar(Personaje personaje, int curacion)
+        {
+            if (curacion > 0)
+            {
+                Console.WriteLine(nombre + " tiene prohibido curarse ");
+                return;
+            }
+        }
     }
 }

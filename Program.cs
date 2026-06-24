@@ -18,9 +18,20 @@ namespace proyecto_1
 
             g1.atacar(m1);
             m1.atacar(g1);
-        }
+            s1.curar(g1,30);
+            g1.atacar(m1);
+            g1.atacar(s1);
+            s1.atacar(g1);
+            g1.atacar(m1);
+            m1.atacar(g1);
+            s1.curar(s1, 50);
 
-         
+            Console.ReadLine();
+            Console.WriteLine("///DATOS FINALES///");
+            Console.WriteLine("mago: " + m1.nombre + " vida: " + m1.vida);
+            Console.WriteLine("guerrero: " + g1.nombre + " vida: " + g1.vida);
+            Console.WriteLine("sacerdote: " + s1.nombre + " vida: " + s1.vida);
+        }
     }
 }
 
