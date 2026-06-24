@@ -8,6 +8,6 @@ namespace proyecto_1
 {
     internal interface ICurable
     {
-        void curar();
+        void Curar(int curacion);
     }
 }

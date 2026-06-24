@@ -26,6 +26,12 @@ namespace proyecto_1
                 Console.WriteLine(nombre + " tiene prohibido curarse ");
                 return;
             }
+            personaje.vida += curacion;
+            Console.WriteLine(nombre + " ha curado a " + personaje.nombre + " por " + curacion + " puntos de vida.");
+        }
+        public void Curar(ICurable objetivo, int curacion)
+        {
+            objetivo.Curar(curacion);
         }
     }
 }

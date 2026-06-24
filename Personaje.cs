@@ -27,14 +27,6 @@ namespace proyecto_1
                 Console.WriteLine(nombre + " ataco a " + objetivo.nombre + " con " + AtaqueRealizado() + " causando " + daño + " de daño.");
             }
         }
-
-        public virtual void curar(int vida, int curacion, string nombre)
-        {
-            if (vida >= 0)
-            {
-                vida = vida + curacion;
-            }
-        }
         public virtual string AtaqueRealizado()
         {
             return "";
