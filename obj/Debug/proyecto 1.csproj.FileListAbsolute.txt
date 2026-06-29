@@ -5,3 +5,10 @@ C:\Users\sena\source\repos\proyecto 1\proyecto 1\obj\Debug\proyecto 1.csproj.Ass
 C:\Users\sena\source\repos\proyecto 1\proyecto 1\obj\Debug\proyecto 1.csproj.CoreCompileInputs.cache
 C:\Users\sena\source\repos\proyecto 1\proyecto 1\obj\Debug\proyecto 1.exe
 C:\Users\sena\source\repos\proyecto 1\proyecto 1\obj\Debug\proyecto 1.pdb
+C:\Users\Cliente\Documents\PROYECTO JUEGO\PROYECTO_VISUALL\obj\Debug\proyecto 1.csproj.AssemblyReference.cache
+C:\Users\Cliente\Documents\PROYECTO JUEGO\PROYECTO_VISUALL\obj\Debug\proyecto 1.csproj.CoreCompileInputs.cache
+C:\Users\Cliente\Documents\PROYECTO JUEGO\PROYECTO_VISUALL\obj\Debug\proyecto 1.exe
+C:\Users\Cliente\Documents\PROYECTO JUEGO\PROYECTO_VISUALL\obj\Debug\proyecto 1.pdb
+C:\Users\Cliente\Documents\PROYECTO JUEGO\PROYECTO_VISUALL\bin\Debug\proyecto 1.exe.config
+C:\Users\Cliente\Documents\PROYECTO JUEGO\PROYECTO_VISUALL\bin\Debug\proyecto 1.exe
+C:\Users\Cliente\Documents\PROYECTO JUEGO\PROYECTO_VISUALL\bin\Debug\proyecto 1.pdb

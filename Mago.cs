@@ -8,21 +8,11 @@ namespace proyecto_1
 {
     internal class Mago:Personaje
     { 
-        public void abrirDorada()
-        {
-
-        }
-
         public Mago(string nombre) : base(nombre)
         {
+
         }
-        public void abrir()
-        {
-        }
-        public override void abrirCofre(Personaje personaje)
-        {
-           if (personaje is ILlaveDorada
-        }
+      
     }
 }
-}
+

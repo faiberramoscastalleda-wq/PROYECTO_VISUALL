@@ -8,22 +8,14 @@ namespace proyecto_1
 {
     internal class cofres:IAbrible
     {
-        protected bool abierto;
-
         public void abrir()
         {
-            abierto = false;
+
         }
-        public virtual void abrirCofre(IAbrible cofre)
+        protected bool abierto = false;
+        public virtual void abrirCofre(Personaje personaje)
         {
-            if (abierto)
-            {
-                cofre.abrir();
-            }
-            else
-            {
-                Console.WriteLine("El cofre está cerrado y no se puede abrir.");
-            }
+           
         }
     }
 }

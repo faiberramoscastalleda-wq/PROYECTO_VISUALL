@@ -8,16 +8,23 @@ namespace proyecto_1
 {
     internal class Cofre_Legendario : cofres
     { 
-        public override void abrirCofre(IAbrible cofre)
+        public override void abrirCofre(Personaje personaje)
         {
-            if (abierto)
+            if (!abierto)
             {
-                cofre.abrir();
-                Console.WriteLine("El cofre legendario se ha abierto tu recompena es un objeto legendario en este caso una solicitud de empleo.");
+                if (personaje is ILlaveLegendaria)
+                {
+                    abierto = true;
+                    Console.WriteLine(personaje.nombre + " abre el cofre legendario tu recompena es un objeto legendario en este caso una solicitud de empleo.");
+                }
+                else
+                {
+                    Console.WriteLine(personaje.nombre + " intenta abrir el cofre legendario ");
+                }
             }
             else
             {
-                Console.WriteLine("El cofre está cerrado y no se puede abrir.");
+                Console.WriteLine(personaje.nombre + " el cofre ya estaba abierto ");
             }
         }   
     }

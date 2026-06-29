@@ -6,22 +6,29 @@ using System.Threading.Tasks;
 
 namespace proyecto_1
 {
-    internal class Cofre_Dorado: cofres
+    internal class Cofre_Dorado : cofres
     {
-      public Cofre_Dorado()
+        public Cofre_Dorado()
         {
 
         }
-      public override void abrirCofre(IAbrible cofre)
+        public override void abrirCofre(Personaje personaje)
         {
-            if (abierto)
+            if (!abierto)
             {
-                cofre.abrir();
-                Console.WriteLine("El cofre dorado se ha abierto correctamente tu recompena es de 1000 monedas.");
+                if (personaje is ILlaveDorada)
+                {
+                    abierto = true;
+                    Console.WriteLine(personaje.nombre + " abre el cofre dorado tu recompena es de 1000 monedas.");
+                }
+                else
+                {
+                    Console.WriteLine(personaje.nombre + " intenta abrir el cofre dorado ");
+                }
             }
             else
             {
-                Console.WriteLine("El cofre está cerrado y no se puede abrir.");
+                Console.WriteLine(personaje.nombre + " el cofre ya estaba abierto ");
             }
         }
 

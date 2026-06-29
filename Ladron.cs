@@ -8,9 +8,17 @@ namespace proyecto_1
 {
     internal class Ladron:Personaje,ILlaveLegendaria
     {
+        public void abrirDorada()
+        {
+
+        }
+        public void abrirLegendaria()
+        {
+
+        }
+
         public Ladron(string nombre) : base(nombre)
         {
         }
-        public
     }
 }

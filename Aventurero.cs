@@ -13,18 +13,7 @@ namespace proyecto_1
         }
         public void abrirDorada()
         {
-            Console.WriteLine("Abriendo cofre dorado...");
-        }
-        public override void abrirCofre(Personaje personaje)
-        {
-            if (personaje is ILlaveDorada)
-            {
-                Console.WriteLine( " ha abierto el cofre dorado.");
-            }
-            else
-            {
-                Console.WriteLine($"{Nombre} no tiene la llave dorada para abrir el cofre.");
-            }
+            
         }
     }
 }

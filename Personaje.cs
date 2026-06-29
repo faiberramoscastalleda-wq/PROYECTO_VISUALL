@@ -3,9 +3,12 @@ namespace proyecto_1
 {
     internal class Personaje
     {
-        protected string nombre;
+        public string nombre;
         protected bool tieneLaLlave;
         protected string Llave;
+
+        protected string Nombre { get => nombre; set => nombre = value; }
+
         public Personaje(string nombre)
         {
             this.nombre = nombre;
@@ -15,13 +18,7 @@ namespace proyecto_1
         }
         public virtual void abrirCofre(Personaje personaje)
         {
-            if (tieneLaLlave)
-            {
-                cofre.abrir();            }
-            else
-            {
-                Console.WriteLine("No tienes la llave para abrir el cofre.");
-            }
+          
         }
         public void abrir()
         {
