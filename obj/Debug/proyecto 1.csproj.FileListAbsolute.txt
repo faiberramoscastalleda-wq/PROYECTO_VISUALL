@@ -1,7 +1,0 @@
-C:\Users\sena\source\repos\proyecto 1\proyecto 1\bin\Debug\proyecto 1.exe.config
-C:\Users\sena\source\repos\proyecto 1\proyecto 1\bin\Debug\proyecto 1.exe
-C:\Users\sena\source\repos\proyecto 1\proyecto 1\bin\Debug\proyecto 1.pdb
-C:\Users\sena\source\repos\proyecto 1\proyecto 1\obj\Debug\proyecto 1.csproj.AssemblyReference.cache
-C:\Users\sena\source\repos\proyecto 1\proyecto 1\obj\Debug\proyecto 1.csproj.CoreCompileInputs.cache
-C:\Users\sena\source\repos\proyecto 1\proyecto 1\obj\Debug\proyecto 1.exe
-C:\Users\sena\source\repos\proyecto 1\proyecto 1\obj\Debug\proyecto 1.pdb
